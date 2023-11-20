@@ -1,0 +1,6 @@
+{
+  "eslint.workingDirectories": [
+    "./adwd_cspims",
+    "./abdevworxcollab"
+  ]
+}
