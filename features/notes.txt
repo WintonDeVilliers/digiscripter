@@ -1,0 +1,44 @@
+new bg color gradient ---> background-image: radial-gradient(circle, #0a1a9c, #102db4, #123fcc, #1051e4, #0564fd);
+
+                        background-image: linear-gradient(to top, #0a1a9c, #0f28ae, #1136c0, #1243d2, #1051e4, #1456ed, #185bf5, #1b60fe, #255dfe, #2e59ff, #3656ff, #3e52ff);
+                        :root[data-theme="light"] {
+  --text: #05060a;
+  --background: #f4f5fb;
+  --primary: #0a1b9e;
+  --secondary: #0865fd;
+  --accent: #3d51ff;
+}
+:root[data-theme="dark"] {
+  --text: #f5f6fa;
+  --background: #04050b;
+  --primary: #6172f5;
+  --secondary: #0260f7;
+  --accent: #0013c2;
+}
+
+
+
+#####################???????????????#################
+
+
+                  <div>
+                    <button id="open-btn" className={styles.modal_btn}>
+                      {/* <ReactMarkdown>
+                        {sc_one_content.attributes.NotInterested}
+                      </ReactMarkdown> */}
+                      {/* <div className={styles.tooltip}>
+                        <span>
+                          <ReactMarkdown>
+                            {sc_one_content.attributes.NotInterestedReply}
+                          </ReactMarkdown>
+                        </span>
+                      </div> */}
+                      NOT INTERESTED
+                    </button>
+                  </div>
+                  {/* MODAL */}
+                  <div id="modal-container">
+                    <div id="modal">
+                      <p>HERE IT IS</p>
+                    </div>
+                  </div>
